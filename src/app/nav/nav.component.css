@@ -1,0 +1,12 @@
+#header {
+    background-color: #364652;
+}
+
+.active {
+    background-color: #CDD7D6;
+    color: #777;
+}
+
+.nav {
+    color: #FFF;
+}

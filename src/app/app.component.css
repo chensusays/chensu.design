@@ -1,10 +1,44 @@
-#header {
-    background-color: #B5BEC6;
+/* About Section */
+.pad {
+    margin-top: 1em;
+    padding-top: 1em;
+    padding-bottom: 4em;
+    margin-bottom: 1em;
 }
-#nav {
-    padding-top: 15px;
+#name {
+    padding-top: 1em;
+    font-size: 5.75rem;
+    font-weight: 800;
+    line-height: 2em;
+}
+#description {  
+    font-size: 2rem;
+}
+#lite {
+    font-weight: 100;
 }
 
-#name {
-    padding-top: 15px;
+/* Resume */
+
+
+
+
+/* Portfolio */
+
+
+
+
+/* Footer */
+
+
+.separator {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    margin: 0 auto;
+    width: 80%;
+    border-bottom: 1px solid #CDD7D6;
+    content: '';
 }
