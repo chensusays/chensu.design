@@ -26,17 +26,26 @@
   <!-- Resume Section -->
   <div class="row pad" id="resume">
     <div class="col-md-6 col-md-offset-3">
+      <!--
       <pre>
-        <div id="resume-section" class="">
           <p>chensu > Education</p>
-          <p>   University of Pittsburgh - Class of 2017<br>   Bachelor's of Science in Computer Engineering</p>
+          <p>University of Pittsburgh - Class of 2017<br>Bachelor's of Science in Computer Engineering</p>
           <p>chensu > Experience</p>
-          <p>   Junior Software Engineer (Spring)<br>   CloudPCR | Pittsburgh, PA | Jan 2017 - April 2017</p>
-          <p>   Software Engineer Co-op<br>   Philips Respironics | Pittsburgh, PA | Jan 2016 - August 2016</p>
-          <p>   Software Engineer Intern<br>   BNY Mellon | Pittsburgh, PA | May 2015 - Aug 2015</p>
-        </div>
-        </pre>
-        <p class="text-center"></p>
+          <p>{{cloudpcrrole}}<br>{{cloudpcrduration}}<br>{{cloudpcrdescription}}</p>
+          <p>{{philipsrole}}<br>{{philipsduration}}<br>{{philipsdescription}}</p>
+          <p>Software Engineer Intern<br>BNY Mellon | Pittsburgh, PA | May 2015 - Aug 2015<br>   </p>
+      </pre>
+      -->
+      <pre>
+        <p><span class="resume-command">chensu > Skills</span><br>{{skills}}</p>
+        <p><span class="resume-command">chensu > Education</span><br>{{education}}<br>{{major}}</p>
+        <p><span class="resume-command">chensu > Experience</span>
+        <br>{{cloudpcrrole}}<br>{{cloudpcrduration}}
+        <br>{{philipsrole}}<br>{{philipsduration}}
+        <br>{{bnyrole}}<br>{{bnyduration}}
+        </p>
+      </pre>
+      <p class="text-center"></p>
     </div>
   </div>
   <div class="row pad separator">
