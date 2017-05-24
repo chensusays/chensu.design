@@ -23,7 +23,13 @@
 #resume {
 
 }
+#resume-section {
+    opacity: 0.9;
+    
+    font-family: Monaco;
+    font-size: 1.25rem;
 
+}
 /* Portfolio */
 #portfolio {
 

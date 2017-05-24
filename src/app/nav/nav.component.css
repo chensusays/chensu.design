@@ -1,5 +1,6 @@
 #header {
     background-color: #364652;
+    color: #FFF;
 }
 
 .active {
@@ -7,6 +8,10 @@
     color: #777;
 }
 
-.nav {
+.navbar-default .navbar-nav > li > a {
+    color: #FFF;
+}
+
+.navbar-default .navbar-brand {
     color: #FFF;
 }

@@ -22,7 +22,7 @@ export class DownloadComponent implements OnInit {
   }
 
   downloadFile() {
-    this.http.get('../assets/Chen Su Resumé.pdf', {responseType: ResponseContentType.ArrayBuffer}).subscribe(
+    this.http.get('http://chensu.design/assets/Chen%20Su%20Resum%C3%A9.pdf', {responseType: ResponseContentType.ArrayBuffer}).subscribe(
       (response) => {
         console.log(response);
         var mediaType = 'application/pdf;base64';
