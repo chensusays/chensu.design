@@ -3,14 +3,6 @@
     color: #FFF;
 }
 
-#about {
-    margin-top: -1.5em;
-    padding-top: 1.5em;
-}
-#resume {
-    margin-top: -1.5em;
-    padding-top: 1.5em;   
-}
 .active {
     background-color: #CDD7D6;
     color: #777;
