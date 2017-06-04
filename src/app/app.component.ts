@@ -28,4 +28,9 @@ export class AppComponent {
   bnyrole = "Software Engineer Intern";
   bnyduration = "BNY Mellon | Pittsburgh, PA | May 2015 - Aug 2015";
   bnydescription = "Front-end redesign of Internal Audit Division’s main website to be responsive.<br>Created automated emails to appropriate users based upon form results and MySQL queries.<br>Implemented a Visual Basic automation script to populate a organized Microsoft Excel workbook using unformatted data.";
+
+  pittrole = "Front-End Web Developer";
+  pittduration = "Pitt Ultimate | Pittsburgh, PA | May 2013 - Aug 2013";
+  pittdescription = "Learned HTML, CSS, JavaScript, and PHP to design website for the University of Pittsburgh's Men's Ultimate Frisbee program.";
+
 }

@@ -29,9 +29,11 @@
     font-weight: 800;
     line-height: 2em;
 }
+
 #description {  
     font-size: 2rem;
 }
+
 #lite {
     font-weight: 100;
 }
@@ -48,6 +50,7 @@
     margin-top: -60px;
     padding-top: 60px;   
 }
+
 #resume-section {
     opacity: 0.9;
     font-family: Monaco;
@@ -67,23 +70,23 @@ pre {
     word-wrap: normal;       /* Internet Explorer 5.5+ */
     
 }
+
 /* Portfolio */
 #portfolio {
 
 }
-
 
 /* Footer */
 #footer {
     background-color: #364652;
     color: #FFF;
     position: relative;
-    margin-top: -150px; /* negative value of footer height */
-    height: 150px;
+    margin-top: -2em; /* negative value of footer height */
+    height: 2em;
     clear:both;
-    padding-top:20px;
 
+    padding-bottom: 1em;
+    font-size: 1.5rem;
     
-
 }
 
